@@ -20,6 +20,10 @@ export default new Router({
     {
       path: "/table4",
       component: () => import("./views/Table4.vue")
+    },
+    {
+      path: "/table5",
+      component: () => import("./views/Table5.vue")
     }
   ]
 })
