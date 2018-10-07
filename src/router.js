@@ -16,6 +16,10 @@ export default new Router({
     {
       path: "/table3",
       component: () => import("./views/Table3.vue")
+    },
+    {
+      path: "/table4",
+      component: () => import("./views/Table4.vue")
     }
   ]
 })
